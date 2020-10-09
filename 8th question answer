@@ -1,0 +1,7 @@
+x=3000000
+y=30000000
+print("\n original number:",x)
+print("formatted number with comma separator:"+"{:,}.format(x));
+print("\n original number:",x)
+print("formatted number with comma separator:"+"{:,}.format(y));
+print()
