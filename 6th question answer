@@ -1,0 +1,30 @@
+while True:
+    if(len(password)<6):
+        flag=-1
+        break
+    elif(len(password)>16):
+        flag=-1
+        break
+    elif not re.serach("[a-z]",password):
+        flag=-1
+        break
+    elif not re.serach("[0-9]",password):
+        flag=-1
+        break
+    elif not re.serach("[$ # @]",password):
+        flag=-1
+        break
+    elif re.serach("\s",password);
+        flag=-1
+        break
+    else:
+        flag=0
+        print("valid password")
+        break
+    if flag==-1:
+        print("not a valid password")
+    
+    
+    
+         
+        
