@@ -1,0 +1,18 @@
+def count_chars(str):
+    char_ctr,digit_ctr,symbol_ctr=0,0,0
+    for i in range(len(str)):
+        if str[i]>='A' and str[i]<='Z':char_ctr+=1
+        elif str[i]>='a' and str[i]<='z':char_ctr+=1
+        elif str[i]>='o' and str[i]<='9':digit_ctr+=1
+        else:
+            symbol_ctr+=
+        return char_ctr,digit_ctr,symbol_ctr
+        str="p@#ynz6at^&i5ve"
+        print("original substring:",str)
+        c,d,s=count_chars(str)
+        print('\n char:',c)
+        print('digits:'d)
+        print('symbol:',s)
+        
+            
+    
